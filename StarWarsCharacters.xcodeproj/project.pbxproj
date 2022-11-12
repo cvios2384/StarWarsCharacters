@@ -15,6 +15,7 @@
 		599E3AB4291F271E00796542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599E3AB2291F271E00796542 /* LaunchScreen.storyboard */; };
 		599E3ABE291F30CB00796542 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E3ABD291F30CB00796542 /* CharacterCell.swift */; };
 		599E3AC0291F387F00796542 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E3ABF291F387F00796542 /* Models.swift */; };
+		599E3AC2291F442E00796542 /* ApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E3AC1291F442E00796542 /* ApiController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		599E3AB5291F271E00796542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		599E3ABD291F30CB00796542 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		599E3ABF291F387F00796542 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		599E3AC1291F442E00796542 /* ApiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +69,9 @@
 				599E3AB0291F271E00796542 /* Assets.xcassets */,
 				599E3AB2291F271E00796542 /* LaunchScreen.storyboard */,
 				599E3AB5291F271E00796542 /* Info.plist */,
-				599E3ABD291F30CB00796542 /* CharacterCell.swift */,
 				599E3ABF291F387F00796542 /* Models.swift */,
+				599E3ABD291F30CB00796542 /* CharacterCell.swift */,
+				599E3AC1291F442E00796542 /* ApiController.swift */,
 			);
 			path = StarWarsCharacters;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				599E3AAC291F271C00796542 /* ViewController.swift in Sources */,
 				599E3AA8291F271C00796542 /* AppDelegate.swift in Sources */,
+				599E3AC2291F442E00796542 /* ApiController.swift in Sources */,
 				599E3AAA291F271C00796542 /* SceneDelegate.swift in Sources */,
 				599E3ABE291F30CB00796542 /* CharacterCell.swift in Sources */,
 				599E3AC0291F387F00796542 /* Models.swift in Sources */,

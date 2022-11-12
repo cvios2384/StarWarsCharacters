@@ -10,13 +10,7 @@ import UIKit
 class CharacterCell: UITableViewCell {
 
     
-    @IBOutlet weak var lblName: UILabel!
-    // Custom cell for holding Star Wars character
-    // info
+    @IBOutlet weak var lblName2: UILabel!
     
-    @IBOutlet weak var lblEyeColor: UILabel!
-    
-    @IBOutlet weak var lblHairColor: UILabel!
-    
-    @IBOutlet weak var lblHomeworld: UILabel!
+    @IBOutlet weak var lblEyeColor2: UILabel!
 }
