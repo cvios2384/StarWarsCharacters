@@ -13,4 +13,8 @@ class CharacterCell: UITableViewCell {
     @IBOutlet weak var lblName2: UILabel!
     
     @IBOutlet weak var lblEyeColor2: UILabel!
+    
+    
+    @IBOutlet weak var lblHomeworld: UILabel!
+    @IBOutlet weak var lblHairColor2: UILabel!
 }

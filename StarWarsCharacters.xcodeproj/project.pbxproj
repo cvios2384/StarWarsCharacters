@@ -16,6 +16,7 @@
 		599E3ABE291F30CB00796542 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E3ABD291F30CB00796542 /* CharacterCell.swift */; };
 		599E3AC0291F387F00796542 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E3ABF291F387F00796542 /* Models.swift */; };
 		599E3AC2291F442E00796542 /* ApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E3AC1291F442E00796542 /* ApiController.swift */; };
+		59C9F63129206848009000DB /* SWCharacterFilms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C9F63029206848009000DB /* SWCharacterFilms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		599E3ABD291F30CB00796542 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		599E3ABF291F387F00796542 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		599E3AC1291F442E00796542 /* ApiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
+		59C9F63029206848009000DB /* SWCharacterFilms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCharacterFilms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				599E3AA7291F271C00796542 /* AppDelegate.swift */,
 				599E3AA9291F271C00796542 /* SceneDelegate.swift */,
+				59C9F63029206848009000DB /* SWCharacterFilms.swift */,
 				599E3AAB291F271C00796542 /* ViewController.swift */,
 				599E3AAD291F271C00796542 /* Main.storyboard */,
 				599E3AB0291F271E00796542 /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 				599E3AC2291F442E00796542 /* ApiController.swift in Sources */,
 				599E3AAA291F271C00796542 /* SceneDelegate.swift in Sources */,
 				599E3ABE291F30CB00796542 /* CharacterCell.swift in Sources */,
+				59C9F63129206848009000DB /* SWCharacterFilms.swift in Sources */,
 				599E3AC0291F387F00796542 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

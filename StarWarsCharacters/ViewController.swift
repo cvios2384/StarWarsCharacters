@@ -16,6 +16,8 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
     // holds the total number of records
     var totalCount: Int?
     
+    var currIdx:Int?
+    
     
     // collection of star wars characters
     var characters:[SWCharacter] = []
@@ -32,7 +34,7 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
         
       //  self.tblView.register(CharacterCell.self, forCellReuseIdentifier: "cell")
   //      DispatchQueue.main.async{
-        getDataFromAPI(page: 0){
+        ApiController.shared.getDataFromAPI(page: 0){
               swchars   in
             self.characters = swchars 
             DispatchQueue.main.async{
@@ -69,12 +71,38 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
         let swCharacter = characters[indexPath.row]
         cell.lblName2!.text = swCharacter.name
         cell.lblEyeColor2!.text = swCharacter.eye_color
-
+        cell.lblHairColor2!.text = swCharacter.hair_color
+        cell.lblHomeworld!.text = swCharacter.homeworld
         
         return cell
         
     }
     
+    
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //do your stuff here.
+        print("clicked cell \(indexPath.row)")
+        self.currIdx = indexPath.row
+        
+        // go to next vc
+        performSegue(withIdentifier: "goToNext", sender: self)
+        
+    }
+    
+   internal func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath ) -> CGFloat{
+        
+        return 180
+    }
+    
+ 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "goToNext"{
+            
+            let destVC = segue.destination as? SWCharacterFilms
+            destVC?.character = self.characters[self.currIdx!]
+        }
+    }
 
 }
 
